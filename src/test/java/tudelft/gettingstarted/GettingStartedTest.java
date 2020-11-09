@@ -31,4 +31,11 @@ public class GettingStartedTest {
          Assertions.assertEquals(-15, result);
     }
 
+    @Test
+    // Write this test
+    public void addFiveTo100() {
+        int result = new GettingStarted().addFive(100);
+        Assertions.assertEquals(105, result);
+    }
+
 }
